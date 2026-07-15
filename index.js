@@ -18,7 +18,12 @@ function capitalizeWords(input) {
 function filterActiveUsers(users) {
     return users.filter(user => user.isActive);
 }
-
+ const users = [
+      { name: "Alice", isActive: true },
+      { name: "Bob", isActive: false },
+      { name: "Charlie", isActive: true },
+      { name: "Dana", isActive: false }
+    ];
 /**
  * Logs an action performed by a user with a timestamp.
  * @param {string} action - The action performed.
